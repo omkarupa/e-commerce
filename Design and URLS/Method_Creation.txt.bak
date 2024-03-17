@@ -3,7 +3,7 @@ public List<Product> fetchAllProducts()
 	return null;
 }
 
-public Product fetchProductById(String productId)
+public Product fetchProductById(Long id)
 {
 	return null;
 }
