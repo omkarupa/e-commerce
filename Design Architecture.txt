@@ -1,0 +1,9 @@
+com.example.productservice
+├── controller
+├── service
+├── repository
+├── model
+├── dto
+├── exception
+├── config
+└── util

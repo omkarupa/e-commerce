@@ -1,0 +1,85 @@
+User Service:
+
+User:
+userId (String)
+username (String)
+password (String)
+email (String)
+firstName (String)
+lastName (String)
+address (String)
+phoneNumber (String)
+createdAt (DateTime)
+updatedAt (DateTime)
+Product Service:
+
+Product:
+productId (String)
+name (String)
+description (String)
+price (BigDecimal)
+category (String)
+brand (String)
+imageUrl (String)
+stockQuantity (int)
+createdAt (DateTime)
+updatedAt (DateTime)
+Order Service:
+
+Order:
+orderId (String)
+userId (String) [Reference to User]
+products (List<Product>) [References to Product]
+totalAmount (BigDecimal)
+status (String) [e.g., "PENDING", "SHIPPED", "DELIVERED"]
+createdAt (DateTime)
+updatedAt (DateTime)
+Payment Service:
+
+Payment:
+paymentId (String)
+orderId (String) [Reference to Order]
+paymentAmount (BigDecimal)
+paymentStatus (String) [e.g., "SUCCESS", "FAILED"]
+paymentMethod (String) [e.g., "CREDIT_CARD", "PAYPAL", "COD"]
+createdAt (DateTime)
+updatedAt (DateTime)
+Cart Service:
+
+Cart:
+
+cartId (String)
+userId (String) [Reference to User]
+items (List<CartItem>)
+createdAt (DateTime)
+updatedAt (DateTime)
+CartItem:
+
+productId (String) [Reference to Product]
+quantity (int)
+createdAt (DateTime)
+updatedAt (DateTime)
+Inventory Service:
+
+Inventory:
+productId (String) [Reference to Product]
+quantityAvailable (int)
+createdAt (DateTime)
+updatedAt (DateTime)
+Shipping Service:
+
+Address:
+addressId (String)
+userId (String) [Reference to User]
+streetAddress (String)
+city (String)
+state (String)
+postalCode (String)
+country (String)
+createdAt (DateTime)
+updatedAt (DateTime)
+Recommendation Service: (No specific entity, typically handles logic based on user behavior)
+
+Search Service: (No specific entity, handles search functionality)
+
+Notification Service: (No specific entity, handles notifications)
