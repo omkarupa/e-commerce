@@ -1,0 +1,14 @@
+public List<Product> fetchAllProducts()
+{
+	return null;
+}
+
+public Product fetchProductById(Long id)
+{
+	return null;
+}
+
+public Product createProduct(@RequestBody ProductDTO productDTO)
+{
+	return null;
+}
