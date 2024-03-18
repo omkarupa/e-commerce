@@ -1,0 +1,108 @@
+{
+  "productId": "P001",
+  "name": "Laptop",
+  "description": "High-performance laptop with SSD storage.",
+  "price": 999.99,
+  "category": "Electronics",
+  "brand": "XYZ",
+  "imageUrl": "https://example.com/laptop.jpg",
+  "stockQuantity": 50
+}
+
+{
+  "productId": "P002",
+  "name": "Smartphone",
+  "description": "Latest smartphone with dual-camera setup.",
+  "price": 699.99,
+  "category": "Electronics",
+  "brand": "ABC",
+  "imageUrl": "https://example.com/smartphone.jpg",
+  "stockQuantity": 100
+}
+
+{
+  "productId": "P003",
+  "name": "Headphones",
+  "description": "Noise-canceling headphones with Bluetooth connectivity.",
+  "price": 149.99,
+  "category": "Electronics",
+  "brand": "XYZ",
+  "imageUrl": "https://example.com/headphones.jpg",
+  "stockQuantity": 75
+}
+
+{
+  "productId": "P004",
+  "name": "Smartwatch",
+  "description": "Fitness tracker with heart rate monitoring.",
+  "price": 199.99,
+  "category": "Electronics",
+  "brand": "ABC",
+  "imageUrl": "https://example.com/smartwatch.jpg",
+  "stockQuantity": 30
+}
+
+{
+  "productId": "P005",
+  "name": "Wireless Mouse",
+  "description": "Ergonomic mouse with customizable buttons.",
+  "price": 39.99,
+  "category": "Electronics",
+  "brand": "XYZ",
+  "imageUrl": "https://example.com/mouse.jpg",
+  "stockQuantity": 80
+}
+
+{
+  "productId": "P006",
+  "name": "Backpack",
+  "description": "Waterproof backpack with laptop compartment.",
+  "price": 79.99,
+  "category": "Accessories",
+  "brand": "ABC",
+  "imageUrl": "https://example.com/backpack.jpg",
+  "stockQuantity": 25
+}
+
+{
+  "productId": "P007",
+  "name": "Gaming Chair",
+  "description": "Ergonomic chair with lumbar support for gamers.",
+  "price": 299.99,
+  "category": "Furniture",
+  "brand": "XYZ",
+  "imageUrl": "https://example.com/gaming-chair.jpg",
+  "stockQuantity": 15
+}
+
+{
+  "productId": "P008",
+  "name": "Portable Charger",
+  "description": "High-capacity power bank for charging devices on the go.",
+  "price": 49.99,
+  "category": "Electronics",
+  "brand": "ABC",
+  "imageUrl": "https://example.com/portable-charger.jpg",
+  "stockQuantity": 40
+}
+{
+  "productId": "P009",
+  "name": "Fitness Tracker",
+  "description": "Activity tracker with GPS and heart rate monitoring.",
+  "price": 129.99,
+  "category": "Electronics",
+  "brand": "XYZ",
+  "imageUrl": "https://example.com/fitness-tracker.jpg",
+  "stockQuantity": 60
+}
+{
+  "productId": "P010",
+  "name": "Wireless Earbuds",
+  "description": "True wireless earbuds with long battery life.",
+  "price": 89.99,
+  "category": "Electronics",
+  "brand": "ABC",
+  "imageUrl": "https://example.com/earbuds.jpg",
+  "stockQuantity": 70
+}
+

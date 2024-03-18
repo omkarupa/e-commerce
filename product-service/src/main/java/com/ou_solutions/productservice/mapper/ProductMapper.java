@@ -31,31 +31,33 @@ public class ProductMapper {
 		
 	}
 	
-	public Product mapProduct(ProductDTO productDTO)
+	public Product mapProduct(ProductDTO productDTO) throws Exception
 	{
+		
+		
 		return  Product.builder()
-				.productId(null)
-				.name(null)
-				.description(null)
-				.price(null)
-				.brand(null)
-				.category(null)
-				.imageUrl(null)
-				.price(null)
+				.productId(productDTO.getProductId())
+				.name(productDTO.getName())
+				.description(productDTO.getDescription())
+				.price(productDTO.getPrice())
+				.brand(productDTO.getBrand())
+				.category(productDTO.getCategory())
+				.imageUrl(productDTO.getImageUrl())
+				.price(productDTO.getPrice())
 				.build();
 	}
 	
 	public ProductDTO mapProductDTO(Product product)
 	{
 		return  ProductDTO.builder()
-				.productId(null)
-				.name(null)
-				.description(null)
-				.price(null)
-				.brand(null)
-				.category(null)
-				.imageUrl(null)
-				.price(null)
+				.productId(product.getProductId())
+				.name(product.getName())
+				.description(product.getDescription())
+				.price(product.getPrice())
+				.brand(product.getBrand())
+				.category(product.getCategory())
+				.imageUrl(product.getImageUrl())
+				.price(product.getPrice())
 				.build();
 	}
 	

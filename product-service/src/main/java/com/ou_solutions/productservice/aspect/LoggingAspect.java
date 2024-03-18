@@ -3,8 +3,10 @@ package com.ou_solutions.productservice.aspect;
 import java.util.Arrays;
 
 import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.AfterThrowing;
+import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
@@ -46,10 +48,12 @@ public class LoggingAspect {
 		String methodName = joinPoint.getSignature().getName();
 		
 		log.info( "Method Name : {} ",methodName);
-		log.info("Returning Value : ",result );
+		log.info("Returning Value : ",result.toString() );
 		
 		
 	}
+	
+	
 	
 	
 	//After an exception has occurent 

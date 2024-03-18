@@ -33,9 +33,9 @@ public class ProductService {
 		return null;
 	}
 
-	public Product createProduct(@RequestBody ProductDTO productDTO)
+	public Product createProduct(ProductDTO productDTO) throws Exception
 	{
-		return ProductMapper.getInstance().mapProduct(productDTO);
+		return  productRepo.save(ProductMapper.getInstance().mapProduct(productDTO));
 	}
 
 	public ProductDTO updateProduct(String productId)
